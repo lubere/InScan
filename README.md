@@ -12,10 +12,10 @@ This repo contains the library implementation (called "InScan") for Java. It nee
     inScan.addSeparator('_'); 
     
     // Get the first string element from the stream
-		String s1 = inScan.peek();
+    String s1 = inScan.peek();
     
     // Get and remove the first string element from the stream
-		String s2 = inScan.next();
+    String s2 = inScan.next();
     
     // true - if the next element in the stream is numeric
     boolean isNextNumber = inScan.isNextNumeric();
@@ -31,12 +31,12 @@ This repo contains the library implementation (called "InScan") for Java. It nee
     
     // Iterate over all text in stream until the 'q' character is found
     while (!inScan.isEmpty()) {
-				if (inScan.next().equalsIgnoreCase("q"))
-					break;
-		}
+    	if (inScan.next().equalsIgnoreCase("q"))
+		break;
+	}
     
-		// Closes the stream
-		inScan.close();
+    // Closes the stream
+    inScan.close();
 ```
 
 ## License
