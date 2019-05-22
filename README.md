@@ -43,4 +43,4 @@ This repo contains the library implementation (called "InScan") for Java. It nee
 ```
 
 ## License
-.NET Core (including the corefx repo) is licensed under the [MIT license](LICENSE.TXT).
+GNU General Public License v3.0.
