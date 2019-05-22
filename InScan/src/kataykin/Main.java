@@ -45,19 +45,11 @@ public class Main {
 		l("inScan: " + inScan);
 		l("next: " + inScan.next());
 		l("nextDouble: " + inScan.nextDouble());
+		l("nextInteger: " + inScan.nextInteger());
+		l("nextLong: " + inScan.nextLong());
 
 		l("_____");
 		l("inScan: " + inScan);
-		l("next: " + inScan.next());
-		l("nextDouble: " + inScan.nextDouble());
-		l("nextInteger: " + inScan.nextInteger());
-		l("nextLong: " + inScan.nextLong());
-		l("poll: " + inScan.poll());
-		l("pollFirst: " + inScan.pollFirst());
-		l("peek: " + inScan.peek());
-		l("peekFirst: " + inScan.peekFirst());
-		l("peekFirst: " + inScan.peekFirst());
-		l("hashCode: " + inScan.hashCode());
 		l("isCacheEmpty: " + inScan.isCacheEmpty());
 		l("isEmpty: " + inScan.isEmpty());
 		l("isNextNumeric: " + inScan.isNextNumeric());
