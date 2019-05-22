@@ -8,6 +8,9 @@ This repo contains the library implementation (called "InScan") for Java. It nee
     // Get the text from the file and the characters '-' and ' ' which will divide the text into elements
     InScan inScan = new InScan("input.txt", '-', ' ');
     
+    // Get the text from console(System.in) and the characters '-' and ' ' which will divide the text into elements
+    // InScan inScan = new InScan(System.in, '-', ' ');
+    
     // Add another character that will divide the text
     inScan.addSeparator('_'); 
     
