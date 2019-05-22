@@ -2,7 +2,7 @@
 This repo contains the library implementation (called "InScan") for Java. It needs to be scan text (divided into elements by given characters) from a file or InputStream (console) and extract numbers or text from it.
 
 # How to use
-1. Copy the file InScan.java to your project.
+1. Copy the file InScan.java to your project or add inScan.jar to your build path.
 2. Use it:
 ```
     // Get the text from the file and the characters '-' and ' ' which will divide the text into elements
